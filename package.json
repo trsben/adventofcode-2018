@@ -1,0 +1,25 @@
+{
+  "name": "adventofcode-2018",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tests/index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/trsben/adventofcode-2018.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trsben/adventofcode-2018/issues"
+  },
+  "homepage": "https://github.com/trsben/adventofcode-2018#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "mocha": "^5.2.0",
+    "should": "^13.2.3"
+  }
+}
